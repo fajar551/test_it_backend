@@ -10,7 +10,32 @@ Repository ini berisi hasil pengerjaan **Backend Interview Test** untuk Knitto G
 
 ## Struktur Proyek
 
-src/ │ ├── controllers/ │ ├── productController.ts │ ├── orderController.ts │ └── errorHandler.ts │ ├── routes/ │ ├── productRoutes.ts │ ├── orderRoutes.ts │ └── index.ts │ ├── services/ │ ├── productService.ts │ └── orderService.ts │ ├── db/ │ └── pool.ts │ ├── middlewares/ │ └── errorHandler.ts │ ├── utils/ │ └── validation.ts │ └── index.ts
+src/
+│
+├── controllers/
+│   ├── productController.ts
+│   ├── orderController.ts
+│   └── errorHandler.ts
+│
+├── routes/
+│   ├── productRoutes.ts
+│   ├── orderRoutes.ts
+│   └── index.ts
+│
+├── services/
+│   ├── productService.ts
+│   └── orderService.ts
+│
+├── db/
+│   └── pool.ts
+│
+├── middlewares/
+│   └── errorHandler.ts
+│
+├── utils/
+│   └── validation.ts
+│
+└── index.ts
 
 - **controllers/**: Menyimpan semua controller untuk setiap fitur API.
 - **routes/**: Menyimpan definisi rute API untuk setiap modul.
@@ -53,7 +78,7 @@ npm install
 
 ## Jalankan Server:
 npm run dev
-atau
+|| atau ||
 npx ts-node src/index.ts
 
 Terima kasih! 🎉
